@@ -311,6 +311,18 @@ body {
     font-size: 13px;
     padding: 18px 0;
 }
+#subtotal table{
+  border-collapse:collapse;
+  width:100%;
+  margin-bottom:20px;
+}
+#subtotal table td{
+  width:50%;
+  border:1px solid #e2e9e1;
+  padding:10px;
+  font-size:13px;
+}
+  
 
 
 
