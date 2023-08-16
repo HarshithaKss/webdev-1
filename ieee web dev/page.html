@@ -26,14 +26,14 @@
     </section>
     <div class="about-section">
         <div class="inner-container">
-            <h1>About Us</h1>
+            <h1 id="abo">About Us</h1>
             <p class="text" id="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
             </p>
             <div class="skills" id="skills">
-                <span id="person-1">Person-1</span>
-                <span id="person-2">Person-2</span>
-                <span id="person-3">Person-3</span>
+                <span id="person-1">HARSHITA KSS</span>
+                <span id="person-2">SIMARAT SINGH BHINDER</span>
+                <span id="person-3">ARSHA MARIA JONSON</span>
             </div>                  
         </div>
     </div>
@@ -42,16 +42,35 @@
         const person2 = document.getElementById('person-2');
         const person3 = document.getElementById('person-3');
         const proDescription = document.getElementById('description');
+        const aboutHeading = document.getElementById('abo');
+        
         person1.addEventListener('click', () => {
-            proDescription.textContent = "person 1";
+            proDescription.innerHTML = `
+                <p>I am a Web developer for IEEE TEMS,1st Year B.Tech CSE student at VIT University Vellore</p>
+                <p>CONTACT INFO: 832847XXXX</p>
+                <p>EMAIL: Harshithaxxxx@gmail.com</p>
+            `;
+            aboutHeading.textContent = "HARSHITA KSS"; 
         });
         person2.addEventListener('click', () => {
-            proDescription.textContent = "person 2";
+            proDescription.innerHTML = `
+                <p>Hey there, I'm Simarat Singh Bhinder, a passionate web developer based in Faridabad.I am currently a 2nd year student in VIT vellore</p>
+                <p>CONTACT INFO : 8700XXXXXX</p>
+                <p>EMAIL:simaratxxxx@gmail.com</p>
+            `;
+            aboutHeading.textContent = "SIMARAT SINGH BHINDER"; 
         });
         person3.addEventListener('click', () => {
-            proDescription.textContent = "This is the content for person-3";
+            proDescription.innerHTML = `
+                <p>I am a Web developer for IEEE TEMS,1st Year B.Tech CSE student at VIT University Vellore</p>
+                <p>CONTACT INFO : 9812XXXXXX</p>
+                <p>EMAIL:ARSHAXXX@gmail.com</p>
+            `;
+            aboutHeading.textContent = "ARSHA MARIA JONSON"; 
         });
     </script>
+    
+    
 </body>
 </html>
 
