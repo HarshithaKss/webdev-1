@@ -78,7 +78,7 @@
         background-size: cover;
         position: relative;
         background-color: #fdfdfd;
-        overflow: hidden;
+        overflow:auto;
         height: 100vh;
         padding: 170px 0;
         padding-right:10% ;
@@ -87,7 +87,7 @@
         width: 55%;
         float: right;
         background-color: #fdfdfd;
-        padding: 150px;
+        padding: 10% 5%;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
      
     }
